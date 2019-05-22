@@ -16,4 +16,4 @@ WORKDIR /backend-dir-inside-container
 
 # Our Nginx container will forward HTTP traffic to containers of 
 # this image via port 3000.
-EXPOSE 3000
+EXPOSE 3001
