@@ -2,7 +2,7 @@
 FROM nginx
 
 # The Dockerfile's author
-LABEL Usama Ashraf
+LABEL yusuf karatoprak
 
 # Copy custom configuration file from the current directory
 COPY nginx.conf /etc/nginx/nginx.conf
