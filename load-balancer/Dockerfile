@@ -1,5 +1,5 @@
 # Use the standard Nginx image from Docker Hub
-FROM nginx
+FROM nginx:stable-alpine 
 
 # The Dockerfile's author
 LABEL yusuf karatoprak
