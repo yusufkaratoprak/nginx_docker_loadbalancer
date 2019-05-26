@@ -2,29 +2,21 @@ version: '3.2'
 services:
   backend1:
       build: ./backend
-      tty: true
       volumes:
         - './backend'
 
   backend2:
       build: ./backend
-      tty: true
       volumes:
         - './backend'
 
   backend3:
       build: ./backend
-      tty: true
       volumes:
         - './backend'
 
   loadbalancer:
       build: ./load-balancer
-      tty: true
-      links:
-          - backend1
-          - backend2
-          - backend3
       ports:
           - '8081:8081'
 
